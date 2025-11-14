@@ -35,7 +35,7 @@ Implement `__bool__` if you want your object to act as a boolean. If unimplement
 
 # Mini Mini Project
 
-See [here](https://github.com/no-im-bk/Learning/blob/master/_posts/Python/FluentPython/FluentPython1.py) for a couple classes I made that use some of the above special methods.
+See [here](https://github.com/no-im-bk/Learning/blob/master/_posts/Python/FluentPython/FluentPython1.py) for a couple classes I made that use some of the above special methods. The `Date` class implements `__add__` and `__repr__`. The `MonthData` class is a dumb way of storing some info about each month for use by the `Date` class, but I wanted to build it to try using the `__getitem__` method.
 
 
 
