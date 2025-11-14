@@ -35,7 +35,7 @@ Implement `__bool__` if you want your object to act as a boolean. If unimplement
 
 # Mini Mini Project
 
-See here for a couple classes I made that use some of the above special methods.
+See [here](https://github.com/no-im-bk/Learning/blob/master/_posts/Python/FluentPython/FluentPython1.py) for a couple classes I made that use some of the above special methods.
 
 
 
