@@ -75,14 +75,9 @@ When unpacking, the `*` prefix can collect extra items when used on the left sid
 
 # Pattern matching with sequences
 
-The match case syntax allows you to match sequences and extract their info:
-```python
-match clothing:
-    case ['SHIRT', color, _ ]:
-        print(color)
-    case ['PANTS', color, size]:
-        print(color)
-```
+The match case syntax allows you to match sequences and destructure to extract their info.
+
+See [here](https://github.com/no-im-bk/Learning/blob/master/_posts/Python/FluentPython/FluentPython2.py) for an example.
 
 # Slices
 
