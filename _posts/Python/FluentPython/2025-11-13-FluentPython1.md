@@ -25,9 +25,11 @@ There's methods like `__add__` that can allow you to use `a + b` to implicitly c
 
 There are two special string methods: `__repr__` and `__str__`. 
 
-`__repr__` is the debugger's string representation. `__str__` is the user-friendly string for `str()`.
+`__repr__` is the debugger's string representation. You can also call this using `!r` in a formatted string.
 
-If `__repr__` is also a user-friendly string, leave `__str__` empty and `str()` will call `__repr__` as fallback.
+`__str__` is the user-friendly string for `str()`. You can also call this using `!s` in a formatted string.
+
+If `__repr__` is also a user-friendly string, leave `__str__` empty and `str()` will call `__repr__` as fallback. 
 
 ## Boolean Special Method
 
@@ -36,8 +38,6 @@ Implement `__bool__` if you want your object to act as a boolean. If unimplement
 # Mini Mini Project
 
 See [here](https://github.com/no-im-bk/Learning/blob/master/_posts/Python/FluentPython/FluentPython1.py) for a couple classes I made that use some of the above special methods. The `Date` class implements `__add__` and `__repr__`. The `MonthData` class is a dumb way of storing some info about each month for use by the `Date` class, but I wanted to build it to try using the `__getitem__` method.
-
-
 
 
 
