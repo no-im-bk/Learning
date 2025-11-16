@@ -85,7 +85,7 @@ Slices are technically objects. `a:b:c` generates `slice(a,b,c)`
 
 # Sorting
 
-Functions like `list.sort` that only change the reciever should return `None` always.
+Functions like `list.sort` that only change the receiver should return `None` always.
 
 `list.sort` sorts in-place while `sorted()` creates a new list.
 
